@@ -9,7 +9,7 @@ new TransientErrorHandler()
   .WithAttempts(3)
   .Execute(() =>
   {
-      using (var sqlConnection = database.GetRawConnection())
+      using (var sqlConnection = new SqlConnection())
       {
           //sql code
       }
