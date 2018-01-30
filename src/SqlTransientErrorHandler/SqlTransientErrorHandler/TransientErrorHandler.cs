@@ -23,7 +23,7 @@ namespace SqlTransientErrorHandler
             return this;
         }
 
-        public TransientErrorHandler WithIncrementalTimeout(bool shouldIncrement = true)
+        public TransientErrorHandler WithIncrementalTimeout(bool shouldIncrement = false)
         {
             _ShouldIncrementTimeout = shouldIncrement;
 
