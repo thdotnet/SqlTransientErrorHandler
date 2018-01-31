@@ -31,6 +31,7 @@ return new TransientErrorHandler()
       using (var sqlConnection = new SqlConnection())
       {
           //sql code
+          //return sqlConnection.ExecuteScalar();
       }
   });
 ```
@@ -46,6 +47,7 @@ return await new TransientErrorHandler()
         using (var sqlConnection = _config.SQLDatabase.GetRawConnection())
         {
             //sql code
+            //return sqlConnection.ExecuteScalar();
         }
     });
 ```
