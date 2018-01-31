@@ -1,6 +1,11 @@
 # SqlTransientErrorHandler
 Simple error handler for SQL Server / SQL Database.
 
+Available on Nuget.org:
+PM> Install-Package SqlTransientErrorHandler -Version 0.6.0 
+
+https://www.nuget.org/packages/SqlTransientErrorHandler/
+
 # How to use it:
 
 ```
